@@ -1,154 +1,241 @@
-// ===== SITES DATA =====
-const SITES = [
-  // AI
-  { name: "ChatGPT", desc: "צ'אט AI של OpenAI — שאל, כתוב, צור", emoji: "🤖", cat: "ai", url: "https://chat.openai.com", tag: "בינה מלאכותית", tagClass: "tag-ai" },
-  { name: "Claude", desc: "AI של Anthropic — חשיבה עמוקה ואמינה", emoji: "🧠", cat: "ai", url: "https://claude.ai", tag: "בינה מלאכותית", tagClass: "tag-ai" },
-  { name: "Gemini", desc: "AI של גוגל — משולב עם כל כלי גוגל", emoji: "✨", cat: "ai", url: "https://gemini.google.com", tag: "בינה מלאכותית", tagClass: "tag-ai" },
-  { name: "Perplexity", desc: "מנוע חיפוש AI עם מקורות מהרשת בזמן אמת", emoji: "🔎", cat: "ai", url: "https://www.perplexity.ai", tag: "חיפוש AI", tagClass: "tag-ai" },
-  { name: "Midjourney", desc: "יצירת תמונות AI מהשורה הראשונה", emoji: "🖼️", cat: "ai", url: "https://www.midjourney.com", tag: "יצירה", tagClass: "tag-ai" },
-  { name: "Hugging Face", desc: "מאגר מודלי AI בקוד פתוח ורכזת הקהילה", emoji: "🤗", cat: "ai", url: "https://huggingface.co", tag: "מודלים", tagClass: "tag-ai" },
-  { name: "Runway ML", desc: "עריכת וידאו ויצירת תוכן עם AI", emoji: "🎬", cat: "ai", url: "https://runwayml.com", tag: "וידאו AI", tagClass: "tag-ai" },
-  { name: "ElevenLabs", desc: "יצירת קול וסינתזת דיבור ב-AI", emoji: "🔊", cat: "ai", url: "https://elevenlabs.io", tag: "קול AI", tagClass: "tag-ai" },
-
-  // DEV
-  { name: "GitHub", desc: "פלטפורמת קוד פתוח, גרסאות ושיתוף פעולה", emoji: "🐙", cat: "dev", url: "https://github.com", tag: "פיתוח", tagClass: "tag-dev" },
-  { name: "Stack Overflow", desc: "שאלות ותשובות למפתחים מכל העולם", emoji: "💬", cat: "dev", url: "https://stackoverflow.com", tag: "קהילה", tagClass: "tag-dev" },
-  { name: "MDN Web Docs", desc: "תיעוד מלא ואמין לפיתוח ווב", emoji: "📖", cat: "dev", url: "https://developer.mozilla.org", tag: "תיעוד", tagClass: "tag-dev" },
-  { name: "CodePen", desc: "כתוב ושתף קוד HTML/CSS/JS בדפדפן", emoji: "✏️", cat: "dev", url: "https://codepen.io", tag: "פיתוח", tagClass: "tag-dev" },
-  { name: "Replit", desc: "כתוב והרץ קוד ישירות בדפדפן עם AI", emoji: "🔧", cat: "dev", url: "https://replit.com", tag: "IDE", tagClass: "tag-dev" },
-  { name: "Vercel", desc: "פריסת אפליקציות ווב מהירה בלחיצה", emoji: "▲", cat: "dev", url: "https://vercel.com", tag: "פריסה", tagClass: "tag-dev" },
-  { name: "npm", desc: "מאגר הפקגאות הגדול בעולם לג'אוואסקריפט", emoji: "📦", cat: "dev", url: "https://www.npmjs.com", tag: "פקגאות", tagClass: "tag-dev" },
-
-  // NEWS
-  { name: "Geektime", desc: "חדשות הייטק וטכנולוגיה בישראל", emoji: "📰", cat: "news", url: "https://www.geektime.co.il", tag: "חדשות", tagClass: "tag-news" },
-  { name: "TechCrunch", desc: "חדשות סטארטאפ וטכנולוגיה בינלאומי", emoji: "🌐", cat: "news", url: "https://techcrunch.com", tag: "חדשות", tagClass: "tag-news" },
-  { name: "The Verge", desc: "טכנולוגיה, מדע ותרבות דיגיטלית", emoji: "📡", cat: "news", url: "https://www.theverge.com", tag: "חדשות", tagClass: "tag-news" },
-  { name: "Ars Technica", desc: "ניתוח טכנולוגי עמוק ומפורט", emoji: "🔬", cat: "news", url: "https://arstechnica.com", tag: "ניתוח", tagClass: "tag-news" },
-  { name: "Product Hunt", desc: "גלה כלים ומוצרים טכנולוגיים חדשים כל יום", emoji: "🚀", cat: "news", url: "https://www.producthunt.com", tag: "מוצרים", tagClass: "tag-news" },
-
-  // TOOLS
-  { name: "Notion", desc: "סדר מידע, הערות ומשימות — הכל במקום אחד", emoji: "📋", cat: "tools", url: "https://www.notion.so", tag: "פרודוקטיביות", tagClass: "tag-tools" },
-  { name: "Zapier", desc: "אוטומציה בין אלפי אפליקציות ללא קוד", emoji: "⚡", cat: "tools", url: "https://zapier.com", tag: "אוטומציה", tagClass: "tag-tools" },
-  { name: "Airtable", desc: "מסד נתונים גמיש ומעוצב לכל צוות", emoji: "🗃️", cat: "tools", url: "https://airtable.com", tag: "מסד נתונים", tagClass: "tag-tools" },
-  { name: "Linear", desc: "ניהול פרויקטים מהיר לצוותי פיתוח", emoji: "🎯", cat: "tools", url: "https://linear.app", tag: "ניהול", tagClass: "tag-tools" },
-
-  // LEARN
-  { name: "Coursera", desc: "קורסים אקדמיים מהאוניברסיטאות הטובות בעולם", emoji: "🎓", cat: "learn", url: "https://www.coursera.org", tag: "למידה", tagClass: "tag-learn" },
-  { name: "freeCodeCamp", desc: "לימוד פיתוח ווב בחינם — מהתחלה ועד עבודה", emoji: "🆓", cat: "learn", url: "https://www.freecodecamp.org", tag: "חינמי", tagClass: "tag-learn" },
-  { name: "YouTube", desc: "אלפי קורסי טכנולוגיה וסרטוני הסבר", emoji: "▶️", cat: "learn", url: "https://www.youtube.com", tag: "וידאו", tagClass: "tag-learn" },
-  { name: "roadmap.sh", desc: "מפות דרך מפורטות לכל תחום בפיתוח", emoji: "🗺️", cat: "learn", url: "https://roadmap.sh", tag: "מפת דרך", tagClass: "tag-learn" },
-
-  // DESIGN
-  { name: "Figma", desc: "עיצוב ממשקים שיתופי ישירות בדפדפן", emoji: "🎨", cat: "design", url: "https://www.figma.com", tag: "עיצוב", tagClass: "tag-design" },
-  { name: "Canva", desc: "יצירת גרפיקה מקצועית בקלות לכולם", emoji: "🖌️", cat: "design", url: "https://www.canva.com", tag: "גרפיקה", tagClass: "tag-design" },
-  { name: "Tailwind CSS", desc: "ספריית CSS מהירה ומודרנית עם כלי AI", emoji: "💨", cat: "design", url: "https://tailwindcss.com", tag: "CSS", tagClass: "tag-design" },
-  { name: "Coolors", desc: "מחולל פלטות צבע יפות בשניות", emoji: "🎭", cat: "design", url: "https://coolors.co", tag: "צבעים", tagClass: "tag-design" },
-
-  // CLOUD
-  { name: "AWS", desc: "שירותי ענן של אמזון — התשתית של האינטרנט", emoji: "☁️", cat: "cloud", url: "https://aws.amazon.com", tag: "ענן", tagClass: "tag-cloud" },
-  { name: "Render", desc: "פריסה פשוטה וזולה לאפליקציות ווב", emoji: "🖥️", cat: "cloud", url: "https://render.com", tag: "פריסה", tagClass: "tag-cloud" },
-  { name: "Cloudflare", desc: "CDN, אבטחה ו-edge computing לכולם", emoji: "🛡️", cat: "cloud", url: "https://cloudflare.com", tag: "CDN", tagClass: "tag-cloud" },
-  { name: "Docker", desc: "קונטיינרים — הרץ כל אפליקציה בכל מקום", emoji: "🐳", cat: "cloud", url: "https://www.docker.com", tag: "DevOps", tagClass: "tag-cloud" },
-];
+// ===== CONFIG =====
+const API_KEY    = 'AIzaSyBA55iJqRZW-BKe0oewbHhNq16gj68Jp0Y';
+const CHANNEL_ID = 'UC1O24WAzLuYg6yNrlPqLABw';
+const PAGE_SIZE  = 12;
 
 // ===== STATE =====
-let currentCat = "all";
-let currentQuery = "";
+let allVideos    = [];
+let filtered     = [];
+let displayed    = 0;
+let nextPageToken = null;
+let isFetching   = false;
 
-// ===== RENDER =====
-function renderCards(list) {
-  const grid = document.getElementById("cardsGrid");
-  const noRes = document.getElementById("noResults");
-  const count = document.getElementById("resultsCount");
+// ===== YOUTUBE API =====
+async function fetchPage(pageToken = '') {
+  const tokenParam = pageToken ? `&pageToken=${pageToken}` : '';
+  const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${CHANNEL_ID}&maxResults=50&order=date&type=video${tokenParam}&key=${API_KEY}`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`YouTube API error: ${res.status}`);
+  return res.json();
+}
 
-  if (list.length === 0) {
-    grid.innerHTML = "";
-    noRes.style.display = "block";
-    count.textContent = "לא נמצאו תוצאות";
+async function fetchVideoStats(ids) {
+  const url = `https://www.googleapis.com/youtube/v3/videos?part=statistics,contentDetails&id=${ids.join(',')}&key=${API_KEY}`;
+  const res = await fetch(url);
+  if (!res.ok) return {};
+  const data = await res.json();
+  const map = {};
+  for (const item of data.items) {
+    map[item.id] = {
+      views:    parseInt(item.statistics?.viewCount || 0),
+      duration: parseDuration(item.contentDetails?.duration || ''),
+    };
+  }
+  return map;
+}
+
+async function fetchChannelStats() {
+  const url = `https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${CHANNEL_ID}&key=${API_KEY}`;
+  const res = await fetch(url);
+  if (!res.ok) return null;
+  const data = await res.json();
+  return data.items?.[0]?.statistics || null;
+}
+
+async function loadVideos() {
+  showLoading(true);
+  showError(false);
+  allVideos = [];
+
+  try {
+    // Fetch all pages
+    let token = '';
+    do {
+      const data = await fetchPage(token);
+      const ids = data.items.map(i => i.id.videoId).filter(Boolean);
+
+      if (ids.length) {
+        const stats = await fetchVideoStats(ids);
+        for (const item of data.items) {
+          const vid = item.id.videoId;
+          if (!vid) continue;
+          allVideos.push({
+            id:        vid,
+            title:     item.snippet.title,
+            desc:      item.snippet.description,
+            thumb:     item.snippet.thumbnails?.high?.url || item.snippet.thumbnails?.medium?.url || '',
+            date:      item.snippet.publishedAt,
+            views:     stats[vid]?.views || 0,
+            duration:  stats[vid]?.duration || '',
+          });
+        }
+      }
+      token = data.nextPageToken || '';
+    } while (token);
+
+    // Channel stats
+    const chStats = await fetchChannelStats();
+    if (chStats) {
+      document.getElementById('statVideos').textContent = formatNum(allVideos.length);
+      document.getElementById('statViews').textContent  = formatNum(parseInt(chStats.viewCount || 0));
+      document.getElementById('statSubs').textContent   = formatNum(parseInt(chStats.subscriberCount || 0));
+      document.getElementById('statsBar').style.display = 'block';
+    }
+
+    showLoading(false);
+    applyFilters();
+  } catch (err) {
+    console.error(err);
+    showLoading(false);
+    showError(true, err.message);
+  }
+}
+
+// ===== FILTERS & SORT =====
+function applyFilters() {
+  const query = document.getElementById('searchInput').value.trim().toLowerCase();
+  const sort  = document.getElementById('sortSelect').value;
+
+  filtered = allVideos.filter(v =>
+    !query || v.title.toLowerCase().includes(query) || v.desc.toLowerCase().includes(query)
+  );
+
+  if (sort === 'date')     filtered.sort((a, b) => new Date(b.date) - new Date(a.date));
+  if (sort === 'date-asc') filtered.sort((a, b) => new Date(a.date) - new Date(b.date));
+  if (sort === 'views')    filtered.sort((a, b) => b.views - a.views);
+  if (sort === 'title')    filtered.sort((a, b) => a.title.localeCompare(b.title, 'he'));
+
+  displayed = 0;
+  document.getElementById('videosGrid').innerHTML = '';
+  document.getElementById('noResults').style.display  = 'none';
+  document.getElementById('loadMoreWrap').style.display = 'none';
+
+  const count = document.getElementById('resultsCount');
+  count.textContent = filtered.length ? `${filtered.length} סרטונים` : '';
+
+  if (filtered.length === 0) {
+    document.getElementById('noResults').style.display = 'block';
     return;
   }
 
-  noRes.style.display = "none";
-  count.textContent = `מציג ${list.length} אתרים`;
-
-  grid.innerHTML = list.map((s, i) => `
-    <a
-      class="site-card"
-      href="${s.url}"
-      target="_blank"
-      rel="noopener noreferrer"
-      style="animation-delay:${Math.min(i * 30, 400)}ms"
-      aria-label="${s.name} — ${s.desc}"
-    >
-      <div class="card-favicon">${s.emoji}</div>
-      <div class="card-body">
-        <div class="card-name">
-          ${s.name}
-          <svg class="card-ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-            <polyline points="15 3 21 3 21 9"/>
-            <line x1="10" y1="14" x2="21" y2="3"/>
-          </svg>
-        </div>
-        <p class="card-desc">${s.desc}</p>
-      </div>
-      <span class="card-tag ${s.tagClass}">${s.tag}</span>
-    </a>
-  `).join("");
+  renderMore();
 }
 
-function applyFilters() {
-  let filtered = SITES;
+function renderMore() {
+  const grid  = document.getElementById('videosGrid');
+  const batch = filtered.slice(displayed, displayed + PAGE_SIZE);
 
-  if (currentCat !== "all") {
-    filtered = filtered.filter(s => s.cat === currentCat);
-  }
-
-  if (currentQuery) {
-    const q = currentQuery.toLowerCase();
-    filtered = filtered.filter(s =>
-      s.name.toLowerCase().includes(q) ||
-      s.desc.toLowerCase().includes(q) ||
-      s.tag.toLowerCase().includes(q)
-    );
-  }
-
-  renderCards(filtered);
-}
-
-// ===== CATEGORY BUTTONS =====
-document.querySelectorAll(".cat-btn").forEach(btn => {
-  btn.addEventListener("click", () => {
-    currentCat = btn.dataset.cat;
-    document.querySelectorAll(".cat-btn").forEach(b => b.classList.remove("active"));
-    btn.classList.add("active");
-    applyFilters();
-
-    // scroll cats into view on mobile
-    btn.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+  batch.forEach((v, i) => {
+    const card = buildCard(v, displayed + i);
+    grid.appendChild(card);
   });
-});
+
+  displayed += batch.length;
+
+  const wrap = document.getElementById('loadMoreWrap');
+  wrap.style.display = displayed < filtered.length ? 'block' : 'none';
+}
+
+function loadMore() { renderMore(); }
+
+// ===== CARD =====
+function buildCard(v, index) {
+  const card = document.createElement('div');
+  card.className = 'video-card';
+  card.style.animationDelay = `${Math.min(index % PAGE_SIZE * 40, 400)}ms`;
+  card.onclick = () => openModal(v);
+
+  card.innerHTML = `
+    <div class="card-thumb">
+      <img src="${v.thumb}" alt="${escHtml(v.title)}" loading="lazy" />
+      ${v.duration ? `<span class="card-duration">${v.duration}</span>` : ''}
+      <div class="card-play">
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none">
+          <circle cx="22" cy="22" r="22" fill="rgba(0,0,0,0.6)"/>
+          <polygon points="17,14 34,22 17,30" fill="white"/>
+        </svg>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="card-title">${escHtml(v.title)}</p>
+      <div class="card-meta">
+        ${v.views ? `<span class="card-views">${formatNum(v.views)} צפיות</span><span class="card-dot">·</span>` : ''}
+        <span class="card-date">${formatDate(v.date)}</span>
+      </div>
+    </div>
+  `;
+  return card;
+}
+
+// ===== MODAL =====
+function openModal(v) {
+  document.getElementById('modalIframe').src  = `https://www.youtube.com/embed/${v.id}?autoplay=1&rel=0`;
+  document.getElementById('modalTitle').textContent = v.title;
+  document.getElementById('modalDate').textContent  = formatDate(v.date);
+  document.getElementById('modalViews').textContent = v.views ? `${formatNum(v.views)} צפיות` : '';
+  document.getElementById('modalDesc').textContent  = v.desc || '';
+  document.getElementById('modalYtLink').href       = `https://www.youtube.com/watch?v=${v.id}`;
+  document.getElementById('modalOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('open');
+  document.getElementById('modalIframe').src = '';
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
 // ===== SEARCH =====
-const searchInput = document.getElementById("searchInput");
-const clearBtn = document.getElementById("clearBtn");
-
-searchInput.addEventListener("input", () => {
-  currentQuery = searchInput.value.trim();
-  clearBtn.style.display = currentQuery ? "block" : "none";
+document.getElementById('searchInput').addEventListener('input', function () {
+  const q = this.value.trim();
+  document.getElementById('clearBtn').style.display = q ? 'block' : 'none';
   applyFilters();
 });
 
 function clearSearch() {
-  searchInput.value = "";
-  currentQuery = "";
-  clearBtn.style.display = "none";
+  document.getElementById('searchInput').value = '';
+  document.getElementById('clearBtn').style.display = 'none';
   applyFilters();
-  searchInput.focus();
 }
-
-// expose for inline onclick
 window.clearSearch = clearSearch;
 
+// ===== HELPERS =====
+function showLoading(on) {
+  document.getElementById('loadingWrap').style.display = on ? 'flex' : 'none';
+  document.getElementById('videosGrid').style.display  = on ? 'none' : 'grid';
+}
+
+function showError(on, msg = '') {
+  document.getElementById('errorWrap').style.display = on ? 'flex' : 'none';
+  if (msg) document.getElementById('errorMsg').textContent = `שגיאה: ${msg}`;
+}
+
+function formatNum(n) {
+  if (n >= 1_000_000) return (n / 1_000_000).toFixed(1) + 'M';
+  if (n >= 1_000)     return (n / 1_000).toFixed(1) + 'K';
+  return n.toLocaleString('he-IL');
+}
+
+function formatDate(iso) {
+  const d = new Date(iso);
+  return d.toLocaleDateString('he-IL', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
+function parseDuration(iso) {
+  const m = iso.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
+  if (!m) return '';
+  const h = parseInt(m[1] || 0);
+  const min = parseInt(m[2] || 0);
+  const s = parseInt(m[3] || 0);
+  if (h) return `${h}:${String(min).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+  return `${min}:${String(s).padStart(2,'0')}`;
+}
+
+function escHtml(str) {
+  return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
 // ===== INIT =====
-renderCards(SITES);
+loadVideos();
