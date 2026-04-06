@@ -1,0 +1,35 @@
+name: Fetch YouTube Videos
+
+on:
+  schedule:
+    - cron: '0 4 * * *'   # כל יום ב-07:00 שעון ישראל
+  workflow_dispatch:        # הרצה ידנית מה-GitHub
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch videos from YouTube
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python fetch_videos.py
+
+      - name: Commit & push videos.json
+        run: |
+          git config user.name  "github-actions"
+          git config user.email "actions@github.com"
+          git add videos.json
+          git diff --staged --quiet || git commit -m "chore: update videos.json [$(date '+%Y-%m-%d')]"
+          git push
