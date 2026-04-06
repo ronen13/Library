@@ -1,0 +1,621 @@
+{
+  "videos": [
+    {
+      "id": "gKOOgOI8WMA",
+      "title": "איך הופכים ידע טכנולוגי למוצר תוכן גלובלי",
+      "desc": "רן לוי הוא אחד הפודקאסטרים המפורסמים בישראל, חלוץ בעולם הפודקאסטים בישראל ובעולם, ומומחה בהעברת תכנים מדעיים וטכנולוגיים לקהל הרחב ...",
+      "thumb": "https://i.ytimg.com/vi/gKOOgOI8WMA/hqdefault.jpg",
+      "date": "2026-02-26T12:47:56Z",
+      "views": 23,
+      "duration": "20:11"
+    },
+    {
+      "id": "2zYiBEFSfI8",
+      "title": "מנכל רובוט - בראיון לערוץ הכלכלה 10: למה Human + AI מנצח כל החלטה",
+      "desc": "התראיינתי לערוץ הכלכלה 10 עם דני רופ על סדנת Human + AI = Better Decisions. בראיון דיברנו על האתגר האמיתי של ארגונים בעידן הבינה ...",
+      "thumb": "https://i.ytimg.com/vi/2zYiBEFSfI8/hqdefault.jpg",
+      "date": "2026-01-26T20:54:05Z",
+      "views": 89,
+      "duration": "7:31"
+    },
+    {
+      "id": "MbIr76F6WZ0",
+      "title": "Beyond Automation: The Human Core of Business Strategy",
+      "desc": "In this episode, I explore the critical intersection between vision, technology, and people — together with my guest, Tarra Stubbins ...",
+      "thumb": "https://i.ytimg.com/vi/MbIr76F6WZ0/hqdefault.jpg",
+      "date": "2026-01-06T07:56:20Z",
+      "views": 5,
+      "duration": "16:55"
+    },
+    {
+      "id": "EgRJtUZ2m4I",
+      "title": "מחקר הופך לזהב עסקי",
+      "desc": "כיצד מחקר באקדמיה יכול להפוך לחברה פורצת דרך בשוק העסקי. ראיון בערוץ 10 - כלכלה עם דני רופ בנושא, הכולל דוגמאות, שיטות ורמזים כיצד להניע ...",
+      "thumb": "https://i.ytimg.com/vi/EgRJtUZ2m4I/hqdefault.jpg",
+      "date": "2025-08-19T02:41:48Z",
+      "views": 47,
+      "duration": "5:08"
+    },
+    {
+      "id": "v1kVlDG5F4E",
+      "title": "עסקים, בינה מלאכותית ולינקדאין: השילוש המנצח של אסתי לריח",
+      "desc": "בפרק הזה אני מארח את אסתי לריח – מרצה, יועצת, ורו\"ח עם חזון חד וממוקד לעולם העסקי של המחר. אסתי לא רק מדברת על חדשנות – היא חיה אותה: ...",
+      "thumb": "https://i.ytimg.com/vi/v1kVlDG5F4E/hqdefault.jpg",
+      "date": "2025-07-07T17:53:59Z",
+      "views": 54,
+      "duration": "27:40"
+    },
+    {
+      "id": "5Z4wLkIbcPc",
+      "title": "From Philly to Pura Vida: Sales, Spirituality &amp; Pinball with Richard Blank",
+      "desc": "In this inspiring episode of On Vision, Technology, Innovation and Money, we sit down with Richard Blank, CEO of Costa Rica's ...",
+      "thumb": "https://i.ytimg.com/vi/5Z4wLkIbcPc/hqdefault.jpg",
+      "date": "2025-07-07T07:19:55Z",
+      "views": 28,
+      "duration": "29:13"
+    },
+    {
+      "id": "4r5PNjxMcW0",
+      "title": "חדשנות, שפה והעתיד הדיגיטלי — שיחה עם יאיר ליפשיץ על פרויקט Ivrit.AI",
+      "desc": "בפרק הזה אני מארח את יאיר ליפשיץ, יזם ומוביל חדשנות, לשיחה על נקודת המפגש שבין טכנולוגיה, שפה ותרבות. אנחנו מדברים על פרויקט Ivrit.",
+      "thumb": "https://i.ytimg.com/vi/4r5PNjxMcW0/hqdefault.jpg",
+      "date": "2025-05-02T13:25:37Z",
+      "views": 32,
+      "duration": "24:43"
+    },
+    {
+      "id": "sMaX5vE27J8",
+      "title": "חד וחלק! - האם ה- AI ישנה את הביקוש לחמישית מהמקצועות במשק - כך תשארו בשוק העבודה",
+      "desc": "האם ה- AI ישנה את הביקוש לחמישית מהמקצועות במשק - כך תשארו בשוק העבודה. ראיון שנערך עימי בתוכניתו של אלעד זוהר. רשת 13.",
+      "thumb": "https://i.ytimg.com/vi/sMaX5vE27J8/hqdefault.jpg",
+      "date": "2025-04-09T10:43:12Z",
+      "views": 21744,
+      "duration": "1:52"
+    },
+    {
+      "id": "8xbGlPluAO8",
+      "title": "מומחים פלוס פרק 5 הייטק",
+      "desc": "בינה מלאכותית - לקחת אותה בערבון מוגבל. שיחה בתוכנית ה- Online של רשת 13 ( היי-טק טוק)",
+      "thumb": "https://i.ytimg.com/vi/8xbGlPluAO8/hqdefault.jpg",
+      "date": "2025-04-03T05:11:57Z",
+      "views": 30,
+      "duration": "2:29"
+    },
+    {
+      "id": "i5jb3FjAHzg",
+      "title": "חד וחלק! - צניחה דרמטית בגיוס העובדים בהיי-טק בפתח 2025",
+      "desc": "תחזית גיוס העובדים ל-2025: אתגר או הזדמנות? הדו\"ח הרבעוני של Manpower צופה עלייה צנועה של 1% בלבד בגיוסים. איך מתמודדים עם ...",
+      "thumb": "https://i.ytimg.com/vi/i5jb3FjAHzg/hqdefault.jpg",
+      "date": "2025-04-02T06:37:33Z",
+      "views": 19566,
+      "duration": "2:21"
+    },
+    {
+      "id": "5DxwcrCr65Q",
+      "title": "חד וחלק! - משנה את השוק - המקצועות החדשים שיוצר ה- AI",
+      "desc": "ראיון ברשת 13 עם אלעד זוהר בנושא אתיקה בקניין הרוחני והבנה מה הולך מאחורי \"הקלעים\".",
+      "thumb": "https://i.ytimg.com/vi/5DxwcrCr65Q/hqdefault.jpg",
+      "date": "2025-03-26T11:30:20Z",
+      "views": 5913,
+      "duration": "2:25"
+    },
+    {
+      "id": "YqAKzY96IUc",
+      "title": "חד וחלק! - האתגרים ההזדמנויות בהיי-טק לשנת 2025",
+      "desc": "ראיון עם אלעד זוהר בנושא: האתגרים ההזדמנויות בהיי-טק לשנת 2025 ומדוע הכל מתחיל בהאזנה ל-Podcast ומתמטיקה.",
+      "thumb": "https://i.ytimg.com/vi/YqAKzY96IUc/hqdefault.jpg",
+      "date": "2025-03-19T12:08:33Z",
+      "views": 110148,
+      "duration": "1:45"
+    },
+    {
+      "id": "HFbpdmee27w",
+      "title": "חד וחלק! – בתקופות של אי יציבות כלכלית: כך חברות היי-טק מגייסות משקיעים וכספים.",
+      "desc": "ראיון שנערך עימי אמש ברשת 13 בתוכנית של אלעד זוהר. תמיד תזכרו את משולש האיזון – גם עכשיו הוא מוכיח כמה הוא שווה צלעות.",
+      "thumb": "https://i.ytimg.com/vi/HFbpdmee27w/hqdefault.jpg",
+      "date": "2025-03-12T15:45:56Z",
+      "views": 323000,
+      "duration": "1:56"
+    },
+    {
+      "id": "0C5WU8cvxrQ",
+      "title": "חד וחלק! הבינה המלאכותית: כך משפיעה ההתפתחות של הטכנולוגיה על שוק העבודה בהיי-טק",
+      "desc": "קטע מתוך ראיון שנערך עימי ברשת 13 בתוכנית החדשה - המומחים.",
+      "thumb": "https://i.ytimg.com/vi/0C5WU8cvxrQ/hqdefault.jpg",
+      "date": "2025-03-05T21:07:03Z",
+      "views": 89059,
+      "duration": "1:41"
+    },
+    {
+      "id": "kd4BewNaLPY",
+      "title": "“The only thing you need is passion”  Ronen Chen, CTO of Albe io",
+      "desc": "",
+      "thumb": "https://i.ytimg.com/vi/kd4BewNaLPY/hqdefault.jpg",
+      "date": "2025-02-01T19:28:55Z",
+      "views": 24,
+      "duration": "21:51"
+    },
+    {
+      "id": "8J0lORYijJQ",
+      "title": "חדשנות, צמיחה ותעשייה",
+      "desc": "הרצאה פתוחה על כלל המסלולים של הרשות לחדשנות לשנת 2025. מסלול הזנק, מופ\"ת, תעשיית הייצור והמדדים להצלחה.",
+      "thumb": "https://i.ytimg.com/vi/8J0lORYijJQ/hqdefault.jpg",
+      "date": "2025-01-20T20:00:32Z",
+      "views": 125573,
+      "duration": "30:55"
+    },
+    {
+      "id": "3zsiAEodaVY",
+      "title": "מומחים פלוס פרק 4 הייטק",
+      "desc": "על   טיקטוק, השבעת טראמפ, והממשל/הרגולטור. 🎙️ ראיון מרתק מתוך תוכנית היי-טק טוק [רשת 13], על האתגרים, הדילמות, וההשפעות בין הממשל ...",
+      "thumb": "https://i.ytimg.com/vi/3zsiAEodaVY/hqdefault.jpg",
+      "date": "2025-01-16T15:49:24Z",
+      "views": 2124,
+      "duration": "3:09"
+    },
+    {
+      "id": "Zzym1uigc1o",
+      "title": "רשת 13_הייטק_טוק - פרק 03",
+      "desc": "קדימה לשנת 2025! במסגרת תוכנית \"הייטק-טוק\" המשודרת ברשת 13, התראיינתי בנושא מרכזי לעולם העסקים והטכנולוגיה: הטבות למשקיעים, רכישות ...",
+      "thumb": "https://i.ytimg.com/vi/Zzym1uigc1o/hqdefault.jpg",
+      "date": "2024-12-27T06:49:48Z",
+      "views": 2762,
+      "duration": "3:57"
+    },
+    {
+      "id": "l7kkvfCZ4JY",
+      "title": "מעולם הריגול למציאות העסקית: שיחה מעוררת השראה עם גיא חן",
+      "desc": "בפרק הזה אני מארח את גיא חן – אדם שבאמת יש לו סיפור לספר. גיא היה רכז בשב\"כ, והוא מביא איתו עולם תוכן עשיר שמשלב ריגול, חדשנות, וחזון.",
+      "thumb": "https://i.ytimg.com/vi/l7kkvfCZ4JY/hqdefault.jpg",
+      "date": "2024-12-06T14:58:13Z",
+      "views": 34,
+      "duration": "25:02"
+    },
+    {
+      "id": "s6Qxuc1NS1Q",
+      "title": "על סטראוטיפים בעולם ההיי טק",
+      "desc": "על סטראוטיפים בעולם ההיי-טק בריאיון לרדיו דיברתי על הנושא המרתק של סטראוטיפים בעולם ההיי-טק – כיצד הם נוצרים, אילו אתגרים הם מציבים, ...",
+      "thumb": "https://i.ytimg.com/vi/s6Qxuc1NS1Q/hqdefault.jpg",
+      "date": "2024-11-25T11:30:39Z",
+      "views": 64,
+      "duration": "10:04"
+    },
+    {
+      "id": "QIyN2CzCPOc",
+      "title": "About love, technology and innovation",
+      "desc": "About love, technology and innovation Support the show (https://www.buzzsprout.com/1931451/support)",
+      "thumb": "https://i.ytimg.com/vi/QIyN2CzCPOc/hqdefault.jpg",
+      "date": "2024-11-23T18:48:14Z",
+      "views": 2,
+      "duration": "45:04"
+    },
+    {
+      "id": "J-6b4Z9QK9A",
+      "title": "Saving your company data using Machine Learning",
+      "desc": "An interview with Actifile CTO, Asaf Litai on vision, technology innovation and money and how his company can assist in applying ...",
+      "thumb": "https://i.ytimg.com/vi/J-6b4Z9QK9A/hqdefault.jpg",
+      "date": "2024-11-23T18:47:49Z",
+      "views": 0,
+      "duration": "30:55"
+    },
+    {
+      "id": "wRkJMGonDbQ",
+      "title": "Listen to the magic behind the Albe way",
+      "desc": "Want to know what your behavioral credit score is calculated? What is the name behind Albe.io? Listen to the magic behind the ...",
+      "thumb": "https://i.ytimg.com/vi/wRkJMGonDbQ/hqdefault.jpg",
+      "date": "2024-11-23T18:47:54Z",
+      "views": 4,
+      "duration": "35:06"
+    },
+    {
+      "id": "ENNevPo8W4U",
+      "title": "למה המוצר שלך לא באמת מעניין אף אחד?",
+      "desc": "שיחה עם אליזבט פירסון, ומנכ\"ל ובעלים של EVOLVE- CONTENT MARKETING על השאלות השיווקיות האמיתיות שכל סטאטאפיסט צריך לשאול את ...",
+      "thumb": "https://i.ytimg.com/vi/ENNevPo8W4U/hqdefault.jpg",
+      "date": "2024-11-23T18:48:39Z",
+      "views": 15,
+      "duration": "22:34"
+    },
+    {
+      "id": "3J1eHzWYutI",
+      "title": "On vision, technology innovation and money",
+      "desc": "On vision, technology innovation and money Support the show (https://www.buzzsprout.com/1931451/support)",
+      "thumb": "https://i.ytimg.com/vi/3J1eHzWYutI/hqdefault.jpg",
+      "date": "2024-11-23T18:48:11Z",
+      "views": 10,
+      "duration": "1:03:43"
+    },
+    {
+      "id": "N8gWf5zxY54",
+      "title": "The U.S market with the Israeli startups - Incredible podcast with  Matthew Wahlrab (Rapid Alpha ...",
+      "desc": "The U.S market with the Israeli startups - Incredible podcast with Matthew Wahlrab (Rapid Alpha CEO) Support the show ...",
+      "thumb": "https://i.ytimg.com/vi/N8gWf5zxY54/hqdefault.jpg",
+      "date": "2024-11-23T18:48:01Z",
+      "views": 19,
+      "duration": "27:33"
+    },
+    {
+      "id": "zeWpAw-qs2E",
+      "title": "What is the CISO role in the company. Interview with Ron Sharon, Vice President Information Security",
+      "desc": "You may be building a startup, but is it scalable? Serial entrepreneur Ronen Chen invites Ron Sharon, CISO at Mercer Advisors ...",
+      "thumb": "https://i.ytimg.com/vi/zeWpAw-qs2E/hqdefault.jpg",
+      "date": "2024-11-23T18:48:05Z",
+      "views": 11,
+      "duration": "26:44"
+    },
+    {
+      "id": "uB6zb_vbgJI",
+      "title": "Protecting your value - How to protect your company IP",
+      "desc": "It is not always easy to know what the right way is to protect your designs, processes, inventions, and brands. Ilanit Appelfeld ...",
+      "thumb": "https://i.ytimg.com/vi/uB6zb_vbgJI/hqdefault.jpg",
+      "date": "2024-11-23T18:47:35Z",
+      "views": 3,
+      "duration": "36:35"
+    },
+    {
+      "id": "XHwwhYospME",
+      "title": "על חזון בספורט וכיצד הטכנולוגיה מביאה אותנו להישגים",
+      "desc": "כיצד ניתוח מידע מתוך אימונים יכול להביא להישגים משמעותיים. עומר ברנד, ספורטאי בינלאומי וחברת נבחרת ישראל בשיחה פתוחה על ספורט, טכנולוגיה ...",
+      "thumb": "https://i.ytimg.com/vi/XHwwhYospME/hqdefault.jpg",
+      "date": "2024-11-23T18:47:27Z",
+      "views": 3,
+      "duration": "23:10"
+    },
+    {
+      "id": "oxq_1ijZ8UQ",
+      "title": "על חזון, חדשנות טכנולוגית וגיוס כסף",
+      "desc": "ראיון עם טל שחר מקרן Deep Insight על מנגנון ההשקעה, מה הם מחפשים ביזמים ולמה טל אוהב חידות? Support the show ...",
+      "thumb": "https://i.ytimg.com/vi/oxq_1ijZ8UQ/hqdefault.jpg",
+      "date": "2024-11-23T18:47:23Z",
+      "views": 7,
+      "duration": "26:09"
+    },
+    {
+      "id": "Osg1LyvAfro",
+      "title": "על חיסכון בכסף באמצעות שימוש באפיון מסודר",
+      "desc": "פרק אחרון לעונה סוף מעשה במחשבה תחילה ובעולם שלנו – הכל מתחיל באפיון שמכיל את כלל צרכי המוצר/שירות אותו אתם מבקשים לפתח. התארחתי ...",
+      "thumb": "https://i.ytimg.com/vi/Osg1LyvAfro/hqdefault.jpg",
+      "date": "2024-11-07T22:17:03Z",
+      "views": 3,
+      "duration": "27:25"
+    },
+    {
+      "id": "ipUcj61ZWVk",
+      "title": "Bryan Marascalchi, MD, discuss innovation, technology and business in the healthcare industry.",
+      "desc": "In this episode, host Ronen Chen, and assistant professor at Johns Hopkins University School of Medicine, founder of Pneumico, ...",
+      "thumb": "https://i.ytimg.com/vi/ipUcj61ZWVk/hqdefault.jpg",
+      "date": "2024-11-07T22:17:10Z",
+      "views": 3,
+      "duration": "24:41"
+    },
+    {
+      "id": "xt2-LKYD73o",
+      "title": "שיחה עם מאיה נוטקוביץ על יחסים",
+      "desc": "שיחה פתוחה עם מאיה נוטקוביץ על מערכות יחסים אישיות וכיצד המעגלים מתחברים לעולם היזמות. שוחחנו על \"האני\" וכיצד הוא פוגש אותנו בבנייה של ...",
+      "thumb": "https://i.ytimg.com/vi/xt2-LKYD73o/hqdefault.jpg",
+      "date": "2024-11-07T22:17:38Z",
+      "views": 9,
+      "duration": "20:18"
+    },
+    {
+      "id": "Bw5Lpoto5iw",
+      "title": "Exploring the Intersection of Law, Entrepreneurship, and Robotics on Purim: An Interview with Guy...",
+      "desc": "Inaugurating the Second Season: A Dialogue with Guy Altagar on Staff Recruitment, Cutting-Edge Technological Advancements, ...",
+      "thumb": "https://i.ytimg.com/vi/Bw5Lpoto5iw/hqdefault.jpg",
+      "date": "2024-11-07T22:16:55Z",
+      "views": 2,
+      "duration": "19:51"
+    },
+    {
+      "id": "obVNYckaUbU",
+      "title": "מדוע השיר קום והתהלך בארץ מכיל אלמנטים שיווקיים וכיצד ידע הוא כוח",
+      "desc": "שיחה עם לאה גלמן מחברת ALLOT באמצעות ניהול ידע ובניית מתודולוגיות בתהליכי השיווק נוצרת קרקע פוריה לתמיכה באנשי המכירות השונים ברחבי ...",
+      "thumb": "https://i.ytimg.com/vi/obVNYckaUbU/hqdefault.jpg",
+      "date": "2024-11-07T22:16:35Z",
+      "views": 14,
+      "duration": "28:40"
+    },
+    {
+      "id": "fXrMEGvt-3Q",
+      "title": "על אנשים, חזון, קשיים ומדוע ספורט עושה טוב - לכולנו",
+      "desc": "כשטכנולוגיה, אנשים וחזון מתחברים עוד פרק ב- Podcast עם צח גורן, מנכ\"ל חברת אגאדו. על אנשים, חזון, קשיים ומדוע ספורט עושה טוב - לכולנו ...",
+      "thumb": "https://i.ytimg.com/vi/fXrMEGvt-3Q/hqdefault.jpg",
+      "date": "2024-11-07T22:16:23Z",
+      "views": 20,
+      "duration": "19:33"
+    },
+    {
+      "id": "Fm2iDtEvBzE",
+      "title": "הבאז&#39;ר המזרח תיכוני",
+      "desc": "מוזמנים להאזין לפרק נוסף ב-Podcast שלי: On vision, technology innovation and Money. הפעם – אני מארח את עידית בר (כן – אתם מכירים ...",
+      "thumb": "https://i.ytimg.com/vi/Fm2iDtEvBzE/hqdefault.jpg",
+      "date": "2024-11-07T22:15:50Z",
+      "views": 6,
+      "duration": "25:14"
+    },
+    {
+      "id": "APVWmnT68Vw",
+      "title": "שיחה עם אורן אילן על הרגלים, חזון ותת מודע בעולם משוגע",
+      "desc": "בפרק הזה אורן ואני מנהלים שיחה פתוחה על נושא הרגלים. כיצד אנחנו יכולים להכניס הרגלים חדשים, מדוע זה משפיע לנו על החיים וכיצד באמצעות ...",
+      "thumb": "https://i.ytimg.com/vi/APVWmnT68Vw/hqdefault.jpg",
+      "date": "2024-11-07T22:16:08Z",
+      "views": 7,
+      "duration": "22:09"
+    },
+    {
+      "id": "TAOlTP-uebQ",
+      "title": "Nurturing Startups and Embracing Innovation!",
+      "desc": "Join us as we embark on a journey with Howard , the leader of a boutique law firm in the heart of New York , specializing in ...",
+      "thumb": "https://i.ytimg.com/vi/TAOlTP-uebQ/hqdefault.jpg",
+      "date": "2024-11-07T22:16:00Z",
+      "views": 6,
+      "duration": "25:30"
+    },
+    {
+      "id": "Kl0bBwHBQ74",
+      "title": "על הסודות בהיי טק וכיצד המידור יכול לפרק את החברה",
+      "desc": "\"ככל שמספר שומרי הסוד גדל, כך גובר הסיכוי לחשיפתו\" – ז'אק דוואל, מחזאי צרפתי. מוזמנים לצפות בקטע מרתק מתוך ראיון ברדיו 102FM, בתוכנית ...",
+      "thumb": "https://i.ytimg.com/vi/Kl0bBwHBQ74/hqdefault.jpg",
+      "date": "2024-10-23T16:34:32Z",
+      "views": 64,
+      "duration": "10:57"
+    },
+    {
+      "id": "Jth2DQWfHPo",
+      "title": "רשת 13_הייטק_טוק - פרק 02",
+      "desc": "דיון מעמיק על מצבה הנוכחי של חברת אינטל ועל ההזדמנויות הייחודיות להשקעה בתחום הבריאות בתקופה זו.",
+      "thumb": "https://i.ytimg.com/vi/Jth2DQWfHPo/hqdefault.jpg",
+      "date": "2024-10-02T21:29:39Z",
+      "views": 7412,
+      "duration": "5:47"
+    },
+    {
+      "id": "yJdOIu1EOZw",
+      "title": "ראיון ברדיו 102FM - על בינארי בעולמות היי-טק ומדוע קשת הצבעים היא השחור החדש",
+      "desc": "ראיון מרתק ברדיו 102FM: על תפקידה של חשיבה בינארית בעולם ההיי-טק ומדוע קשת הצבעים הפכה ל\"שחור החדש\". השיחה מתמקדת באופן שבו ...",
+      "thumb": "https://i.ytimg.com/vi/yJdOIu1EOZw/hqdefault.jpg",
+      "date": "2024-09-16T04:15:12Z",
+      "views": 152,
+      "duration": "9:15"
+    },
+    {
+      "id": "Rk33_fW8_Fs",
+      "title": "רשת 13_הייטק_טוק - ההצלחות, הגיוסים ופיתוח כחול לבן אחד",
+      "desc": "פרק הבכורה של הייטק-טוק: מבט מעמיק על תעשיית ההיי-טק הישראלית והגלובלית, תוך בחינת מגמות, אתגרים והזדמנויות מרכזיות.",
+      "thumb": "https://i.ytimg.com/vi/Rk33_fW8_Fs/hqdefault.jpg",
+      "date": "2024-08-09T20:22:53Z",
+      "views": 1900,
+      "duration": "4:55"
+    },
+    {
+      "id": "hHvo5MmsFNA",
+      "title": "מתוך התוכנית Overall ברדיו תל אביב (102FM) לשיחה קצרה על אגו, שמעון פרס ז&quot;ל ו-כסף בעולם היי-טק.",
+      "desc": "האגו יכול לשמש כמנוע משמעותי להצלחה אישית – הוא מעניק את הביטחון הדרוש ליזום, לקחת סיכונים ולהשיג מטרות. עם זאת, כשהאגו מתפתח מעבר ...",
+      "thumb": "https://i.ytimg.com/vi/hHvo5MmsFNA/hqdefault.jpg",
+      "date": "2024-07-12T12:37:13Z",
+      "views": 2986,
+      "duration": "9:10"
+    },
+    {
+      "id": "PToGOFMxF8Y",
+      "title": "על חדשנות טכנולוגית, צלופח חשמלי ואיזון",
+      "desc": "הרצאה ממוקדת ועשירה בדוגמאות הממחישות את ההבדל בין חדשנות טכנולוגית לחדשנות מוצרית ופונקציונלית. במהלך 30 דקות תמציתיות, ניתנת ...",
+      "thumb": "https://i.ytimg.com/vi/PToGOFMxF8Y/hqdefault.jpg",
+      "date": "2024-06-19T18:59:49Z",
+      "views": 26628,
+      "duration": "36:15"
+    },
+    {
+      "id": "Xl2Co-EpvAU",
+      "title": "&quot;להתחיל מהסוף&quot; - הרצאה עבור WeWork members",
+      "desc": "הרצאה דינמית ומעשירה בנושא חקר שוק בעידן של שינויים מתמידים. במהלך ההרצאה, דור ואני נעמיק בתפקידו של חקר השוק, בשיטות לביצועו ובמסקנות ...",
+      "thumb": "https://i.ytimg.com/vi/Xl2Co-EpvAU/hqdefault.jpg",
+      "date": "2024-05-23T09:26:38Z",
+      "views": 137,
+      "duration": "54:33"
+    },
+    {
+      "id": "qBoR2ZV6YXc",
+      "title": "האנשים שיעשו את שנת 2024 - מתוך תוכנית ב- WALLA!",
+      "desc": "שיחה תמציתית ומרתקת על חיבורים עסקיים, מגמות בהשקעות, ותובנות לגבי הכיוונים הצפויים בתעשייה בשנת 2024.",
+      "thumb": "https://i.ytimg.com/vi/qBoR2ZV6YXc/hqdefault.jpg",
+      "date": "2024-04-21T15:40:54Z",
+      "views": 4146,
+      "duration": "3:54"
+    },
+    {
+      "id": "cM4d0fzeLrs",
+      "title": "AI Applications in the Workspace",
+      "desc": "יישומי בינה מלאכותית במקומות העבודה: חקר השפעתה של טכנולוגיית ה-AI על אוטומציה, יעילות ושיפור ביצועים בסביבות עבודה מודרניות.",
+      "thumb": "https://i.ytimg.com/vi/cM4d0fzeLrs/hqdefault.jpg",
+      "date": "2024-02-21T22:01:21Z",
+      "views": 2546,
+      "duration": "50:06"
+    },
+    {
+      "id": "2NWH3PGifME",
+      "title": "היה לי הכבוד להיות אורח בהרצאה פתוחה בנושא: &#39;כיצד מבצעים ניתוח שוק&#39;",
+      "desc": "בהרצאה שהעביר דור הראל, דנו על חקר שוק בצורה פתוחה ומעמיקה. התמקדות היתה בדרכים לבצע חקר שוק יעיל, בשיטות ובמתודולוגיות לניתוח נתונים ...",
+      "thumb": "https://i.ytimg.com/vi/2NWH3PGifME/hqdefault.jpg",
+      "date": "2023-12-06T12:24:02Z",
+      "views": 130,
+      "duration": "40:27"
+    },
+    {
+      "id": "TNEwsLBrb_Y",
+      "title": "על תמרון, שמירת נכסים וצמיחה מחדש",
+      "desc": "הרצאה פתוחה בנושא תמרון פיננסי, שמירת נכסים וצמיחה מחדש, המתמקדת במענקים ובגיוס כספים. במהלך ההרצאה, נדונו אסטרטגיות לשמירת נכסים ...",
+      "thumb": "https://i.ytimg.com/vi/TNEwsLBrb_Y/hqdefault.jpg",
+      "date": "2023-11-20T12:36:37Z",
+      "views": 234,
+      "duration": "39:51"
+    },
+    {
+      "id": "fhNsvqZYXvk",
+      "title": "הרצאה פתוחה בנושא: &#39;גיוס מקרנות ומענקים&#39;",
+      "desc": "בהתאם למצב הנוכחי ובמסגרת שיתוף המידע, אנו מציגים הרצאה פתוחה על קרנות ומענקים בישראל ובחול, תוך התמקדות בהזדמנויות המימון הזמינות ...",
+      "thumb": "https://i.ytimg.com/vi/fhNsvqZYXvk/hqdefault.jpg",
+      "date": "2023-10-25T10:24:17Z",
+      "views": 1882,
+      "duration": "47:15"
+    },
+    {
+      "id": "C5fqFuJCOP0",
+      "title": "פרק 2 בתוכנית המנטורים",
+      "desc": "בפרק הזה נדון כיצד לנהל הוצאות בתקופה של חוסר וודאות כלכלית ופוליטית, ונתמקד בהבנת האסטרטגיות המתאימות לשמירה על יציבות כלכלית ...",
+      "thumb": "https://i.ytimg.com/vi/C5fqFuJCOP0/hqdefault.jpg",
+      "date": "2023-10-03T12:51:57Z",
+      "views": 10597,
+      "duration": "3:21"
+    },
+    {
+      "id": "IbICp2Yz74o",
+      "title": "פרק 1 - מתוכנית המנטורים בוואלה",
+      "desc": "איך נכון לגייס כסף ממשקיעים בתקופות שפל ובתקופות מאתגרות יותר. טיפים מיידים הכוללים הוכחת היתכנות.",
+      "thumb": "https://i.ytimg.com/vi/IbICp2Yz74o/hqdefault.jpg",
+      "date": "2023-08-08T15:15:00Z",
+      "views": 17623,
+      "duration": "3:14"
+    },
+    {
+      "id": "QyB0XzZ-uVg",
+      "title": "הכרות עם כסף לא מדלל",
+      "desc": "הרצאה פתוחה הכוללת סשן שאלות ותשובות בנושא מענקים לחברות הזנק. במהלך ההרצאה נבחנים היתרונות והחסרונות של המענקים, המסלולים ...",
+      "thumb": "https://i.ytimg.com/vi/QyB0XzZ-uVg/hqdefault.jpg",
+      "date": "2023-06-12T17:37:55Z",
+      "views": 233,
+      "duration": "1:04:12"
+    },
+    {
+      "id": "mb8PZNVvloQ",
+      "title": "ראיון עם רונן חן על האתיקה של הבינה המלאכותית",
+      "desc": "ראיון פתוח לכבוד כנס הפרויקטים הגדול בישראל, העוסק בבינה מלאכותית ואתיקה. בשיחה נבחן כיצד השילוב בין טכנולוגיה ואתיקה יוצר אתגרים חדשים, ...",
+      "thumb": "https://i.ytimg.com/vi/mb8PZNVvloQ/hqdefault.jpg",
+      "date": "2023-05-30T19:26:21Z",
+      "views": 832,
+      "duration": "12:03"
+    },
+    {
+      "id": "ZhAV0lhfqjE",
+      "title": "How Does A Pitch Deck Work",
+      "desc": "הסבר מעמיק על אופן הפעולה של Pitch Deck – מצגת המשמשת להצגת רעיונות עסקיים למשקיעים פוטנציאליים. נעמוד על המרכיבים המרכזיים שלה, ...",
+      "thumb": "https://i.ytimg.com/vi/ZhAV0lhfqjE/hqdefault.jpg",
+      "date": "2023-04-29T17:05:48Z",
+      "views": 51008,
+      "duration": "39:29"
+    },
+    {
+      "id": "FIvVaSZNq9E",
+      "title": "“The only thing you need is passion” Ronen Chen, CTO of Albe io",
+      "desc": "Ronen Chen is a visionary in the Fintech sector, identifying opportunities for growth and innovation. Based in Tel Aviv, Ronen has ...",
+      "thumb": "https://i.ytimg.com/vi/FIvVaSZNq9E/hqdefault.jpg",
+      "date": "2023-01-17T10:32:37Z",
+      "views": 471,
+      "duration": "21:51"
+    },
+    {
+      "id": "1rvwcluoKPw",
+      "title": "?כשאת אומרת לא - למה את מתכוונת",
+      "desc": "הרצאה פתוחה בנושא: מה לא אומרים במצגת משקיעים, מהם הדגשים החשובים בהכנת המצגת, וכיצד ניתן להגדיל את הסיכויים להשגת השקעה לחברה.",
+      "thumb": "https://i.ytimg.com/vi/1rvwcluoKPw/hqdefault.jpg",
+      "date": "2022-12-16T07:13:19Z",
+      "views": 835,
+      "duration": "34:26"
+    },
+    {
+      "id": "cgW3Ao2Isoc",
+      "title": "פרק 6 - מומחים פלוס מבית קשת/מאקו מארחת את רונן חן",
+      "desc": "פרק 6 – עוסקים בטייסים, גיוס כספים וסוד אחד קטן שיכול לשנות את הכל. למידע נוסף: inno-tech.co.il.",
+      "thumb": "https://i.ytimg.com/vi/cgW3Ao2Isoc/hqdefault.jpg",
+      "date": "2022-12-01T18:55:47Z",
+      "views": 4836,
+      "duration": "4:58"
+    },
+    {
+      "id": "naUr-ZS4j2Q",
+      "title": "פרק 5 - מומחים פלוס מבית קשת/מאקו מארחת את רונן חן",
+      "desc": "פרק 5 – על חדשנות טכנולוגית, גיוס כספים וכיצד בינה מלאכותית מזהה ומטפלת במפגעים. למידע נוסף: inno-tech.co.il.",
+      "thumb": "https://i.ytimg.com/vi/naUr-ZS4j2Q/hqdefault.jpg",
+      "date": "2022-11-10T13:40:26Z",
+      "views": 13235,
+      "duration": "4:40"
+    },
+    {
+      "id": "pPOnvvpn6zI",
+      "title": "מומחים פלוס מבית קשת/מאקו מארחת את רונן חן",
+      "desc": "פרק 4 – מה מייחד את החברה שלי ולמה השילוב של טכנולוגיה, צוות ושוק מהווה יתרון תחרותי משמעותי. לפרטים נוספים: inno-tech.co.il.",
+      "thumb": "https://i.ytimg.com/vi/pPOnvvpn6zI/hqdefault.jpg",
+      "date": "2022-10-20T16:02:45Z",
+      "views": 217265,
+      "duration": "3:22"
+    },
+    {
+      "id": "nHlHLLIsseA",
+      "title": "פרק 3 בנושא צוות החברה, החדשנות הטכנולוגית, תוכנית השיווק וה-כסף.לפרטים נוספים:  (inno-tech.co.il)",
+      "desc": "פרק 3 – עוסק בצוות החברה, החדשנות הטכנולוגית, תוכנית השיווק וההיבטים הפיננסיים. לפרטים נוספים: ראשי – הולכים אל הלא נודע (inno-tech.co.il) ...",
+      "thumb": "https://i.ytimg.com/vi/nHlHLLIsseA/hqdefault.jpg",
+      "date": "2022-09-14T14:37:27Z",
+      "views": 15157,
+      "duration": "4:26"
+    },
+    {
+      "id": "Gne-onuYWBo",
+      "title": "מומחים פלוס מבית קשת/מאקו מארחת את רונן חן",
+      "desc": "פרק 2 – עוסק בגיוס כספים, חדשנות טכנולוגית והדרכים השונות לגיוס מימון. היום נתמקד בסבבי הגיוס השונים ואסטרטגיות לניהול תהליך הגיוס. לפרטים ...",
+      "thumb": "https://i.ytimg.com/vi/Gne-onuYWBo/hqdefault.jpg",
+      "date": "2022-08-22T12:19:06Z",
+      "views": 7492,
+      "duration": "3:57"
+    },
+    {
+      "id": "0NJ9lp1JVpg",
+      "title": "על חדשנות, פיצוח טכנולוגי וכיצד שרידות יכולה גם להיות מילת קסם",
+      "desc": "ראיון בשידור חי ברדיו החברתי הראשון, בנושא: חדשנות, פיתוח טכנולוגי וכיצד שרידות יכולה להיות מילת קסם להצלחה. לפרטים נוספים: ...",
+      "thumb": "https://i.ytimg.com/vi/0NJ9lp1JVpg/hqdefault.jpg",
+      "date": "2022-08-12T19:05:00Z",
+      "views": 344,
+      "duration": "46:03"
+    },
+    {
+      "id": "M6I3GyYh-5s",
+      "title": "About One Woman, Bitter lemon and a song playing",
+      "desc": "A conversation about one woman, bitter lemons, and a song playing in the background. For more information: inno-tech.co.il.",
+      "thumb": "https://i.ytimg.com/vi/M6I3GyYh-5s/hqdefault.jpg",
+      "date": "2022-08-12T06:11:56Z",
+      "views": 25,
+      "duration": "1:43:09"
+    },
+    {
+      "id": "2e29kxHoKlE",
+      "title": "מצגת   קסם הידע - במידע",
+      "desc": "כיצד מתוך מידע אנו מסוגלים לכמת ידע, ודוגמאות לשיטות להשגת מידע באמצעות תורת המשחקים. לפרטים נוספים: inno-tech.co.il.",
+      "thumb": "https://i.ytimg.com/vi/2e29kxHoKlE/hqdefault.jpg",
+      "date": "2022-08-11T22:23:41Z",
+      "views": 7857,
+      "duration": "1:24:16"
+    },
+    {
+      "id": "oHC2lILScGg",
+      "title": "הרצאת העשרה: על חזון, חדשנות טכנולוגית וכסף",
+      "desc": "הרצאת העשרה פתוחה במסגרת אקסלרטור, העוסקת בחזון החברה, חדשנות טכנולוגית ותהליכי מימון שונים. לפרטים נוספים: inno-tech.co.il.",
+      "thumb": "https://i.ytimg.com/vi/oHC2lILScGg/hqdefault.jpg",
+      "date": "2022-08-11T21:48:16Z",
+      "views": 618,
+      "duration": "1:10:03"
+    },
+    {
+      "id": "NE9BVEYyuyE",
+      "title": "מומחים פלוס מבית קשת/מאקו מארחת את רונן חן",
+      "desc": "פרק 1 – עוסק בגיוס כספים, חדשנות טכנולוגית ואפשרויות הגיוס מקרנות השקעה, מענקים מקומיים ובינלאומיים. לפרטים נוספים: inno-tech.co.il.",
+      "thumb": "https://i.ytimg.com/vi/NE9BVEYyuyE/hqdefault.jpg",
+      "date": "2022-08-11T18:39:51Z",
+      "views": 42884,
+      "duration": "3:23"
+    }
+  ],
+  "channelStats": {
+    "viewCount": 1138807,
+    "subscriberCount": 1460,
+    "videoCount": 68
+  }
+}
