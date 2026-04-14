@@ -1,6 +1,131 @@
 // ===== CONFIG =====
 const PAGE_SIZE = 12;
 
+// ===== PAYWALL CONFIG =====
+const FREE_COUNT  = 4;
+const PAYMENT_URL = "https://meshulam.co.il/quick_payment?b=cda745194cf906235974d5e3cb35e9c7";
+const RETURN_URL  = "https://library.inno-tech.io/?paid=true";
+const STORAGE_KEY = "innotech_paid";
+
+// אם הלקוח חוזר אחרי תשלום — שמור גישה ונקה URL
+(function () {
+  const p = new URLSearchParams(window.location.search);
+  if (p.get("paid") === "true") {
+    localStorage.setItem(STORAGE_KEY, "1");
+    window.history.replaceState({}, "", window.location.pathname);
+  }
+})();
+
+const isPaid = () => localStorage.getItem(STORAGE_KEY) === "1";
+
+// סגנונות פייוול
+const pwStyle = document.createElement("style");
+pwStyle.textContent = `
+  .pw-banner {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 16px; background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.15); border-radius: 14px;
+    padding: 18px 24px; margin: 0 16px 28px; direction: rtl; flex-wrap: wrap;
+  }
+  .pw-banner h3 { margin: 0 0 4px; font-size: 15px; font-weight: 700; color: #fff; }
+  .pw-banner p  { margin: 0; font-size: 13px; color: rgba(255,255,255,0.55); }
+  .pw-banner a  {
+    background: #e63946; color: #fff; text-decoration: none;
+    padding: 10px 22px; border-radius: 8px; font-size: 13px;
+    font-weight: 700; white-space: nowrap; flex-shrink: 0;
+  }
+  .pw-banner a:hover { background: #c1121f; }
+
+  .pw-free-badge {
+    position: absolute; top: 8px; right: 8px;
+    background: #1D9E75; color: #fff;
+    font-size: 10px; font-weight: 700;
+    padding: 2px 8px; border-radius: 20px; z-index: 5;
+    pointer-events: none;
+  }
+
+  .pw-lock-overlay {
+    position: absolute; inset: 0; z-index: 10;
+    background: rgba(0,0,0,0.72);
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center; gap: 8px;
+    border-radius: 10px; cursor: pointer;
+  }
+  .pw-lock-overlay svg { width: 34px; height: 34px; color: #fff; opacity: 0.9; }
+  .pw-lock-overlay span { color: #fff; font-size: 12px; opacity: 0.75; }
+  .pw-lock-overlay a {
+    margin-top: 4px; background: #e63946; color: #fff;
+    text-decoration: none; font-size: 12px; font-weight: 700;
+    padding: 7px 16px; border-radius: 6px;
+  }
+  .pw-lock-overlay a:hover { background: #c1121f; }
+
+  .pw-locked .card-thumb img { filter: blur(5px); }
+  .pw-locked { cursor: default; }
+`;
+document.head.appendChild(pwStyle);
+
+function buildLockOverlay() {
+  const d = document.createElement("div");
+  d.className = "pw-lock-overlay";
+  d.innerHTML = `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3" y="11" width="18" height="11" rx="2"/>
+      <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+    </svg>
+    <span>תוכן פרימיום</span>
+    <a href="${PAYMENT_URL}&return_url=${encodeURIComponent(RETURN_URL)}" target="_blank" rel="noopener">לרכישת גישה מלאה ▶</a>
+  `;
+  return d;
+}
+
+function insertPaywallBanner() {
+  if (isPaid() || document.getElementById("pw-main-banner")) return;
+  const grid = document.getElementById("videosGrid");
+  if (!grid) return;
+  const banner = document.createElement("div");
+  banner.id = "pw-main-banner";
+  banner.className = "pw-banner";
+  banner.innerHTML = `
+    <div>
+      <h3>ספריית הסרטונים המלאה</h3>
+      <p>4 הסרטונים האחרונים זמינים בחינם · שאר הספרייה נפתחת לאחר רכישת גישה</p>
+    </div>
+    <a href="${PAYMENT_URL}&return_url=${encodeURIComponent(RETURN_URL)}" target="_blank" rel="noopener">לרכישת גישה מלאה ▶</a>
+  `;
+  grid.parentNode.insertBefore(banner, grid);
+}
+
+function applyPaywall() {
+  if (isPaid()) return;
+  insertPaywallBanner();
+  const cards = Array.from(document.querySelectorAll("#videosGrid .video-card"));
+  cards.forEach((card, i) => {
+    if (i < FREE_COUNT) {
+      // תג חינם
+      const thumb = card.querySelector(".card-thumb");
+      if (thumb && !thumb.querySelector(".pw-free-badge")) {
+        const badge = document.createElement("div");
+        badge.className = "pw-free-badge";
+        badge.textContent = "חינם";
+        thumb.appendChild(badge);
+      }
+    } else {
+      // נעל את הכרטיסייה
+      if (!card.classList.contains("pw-locked")) {
+        card.classList.add("pw-locked");
+        card.onclick = null; // בטל פתיחת מודאל
+        const thumb = card.querySelector(".card-thumb");
+        if (thumb && !thumb.querySelector(".pw-lock-overlay")) {
+          thumb.appendChild(buildLockOverlay());
+        }
+      }
+    }
+  });
+}
+// ===== END PAYWALL =====
+
+
 // ===== STATE =====
 let allVideos = [];
 let filtered  = [];
@@ -80,6 +205,9 @@ function renderMore() {
 
   const wrap = document.getElementById('loadMoreWrap');
   wrap.style.display = displayed < filtered.length ? 'block' : 'none';
+
+  // הפעל פייוול אחרי כל רינדור
+  applyPaywall();
 }
 
 function loadMore() { renderMore(); }
