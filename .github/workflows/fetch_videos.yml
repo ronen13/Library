@@ -2,8 +2,12 @@ name: Fetch YouTube Videos
 
 on:
   schedule:
-    - cron: '0 4 * * *'   # כל יום ב-07:00 שעון ישראל
-  workflow_dispatch:        # הרצה ידנית מה-GitHub
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: update-videos
+  cancel-in-progress: false
 
 jobs:
   fetch:
