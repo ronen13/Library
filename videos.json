@@ -1,12 +1,21 @@
 {
   "videos": [
     {
+      "id": "WDG0qXyktug",
+      "title": "מענקים זו שפה",
+      "desc": "מענקים זו שפה. הפער בין ״לא קיבלתי״ ל״קיבלתי״ הוא לפעמים לא הרעיון, אלא הדרך שבה מציגים אותו. בסרטון: שלוש דוגמאות פשוטות לאיך ניסוח נכון ...",
+      "thumb": "https://i.ytimg.com/vi/WDG0qXyktug/hqdefault.jpg",
+      "date": "2026-09-11T09:01:40Z",
+      "views": 3678,
+      "duration": "0:50"
+    },
+    {
       "id": "5Y-gyOFWbSo",
       "title": "5 מקורות מימון בחו״ל שיזמים ישראלים חייבים להכיר.",
       "desc": "יש כסף שמחכה לסטארטאפים ישראליים ברחבי העולם — ורוב היזמים בכלל לא יודעים איפה לחפש. לא כל מימון מגיע ממשקיעים או מהלוואה. יש קרנות ...",
       "thumb": "https://i.ytimg.com/vi/5Y-gyOFWbSo/hqdefault.jpg",
       "date": "2026-09-08T12:07:13Z",
-      "views": 9833,
+      "views": 13756,
       "duration": "1:51"
     },
     {
@@ -15,7 +24,7 @@
       "desc": "בפרק הזה אני מארח את עו\"ד אסף אברמזון מייסד שותף של קהילת Legal Mind, קהילה המונה למעלה מ־1000 עורכי דין ופועלת להנגשת עולם הבינה ...",
       "thumb": "https://i.ytimg.com/vi/2CQcyhj4XeY/hqdefault.jpg",
       "date": "2026-05-13T22:50:42Z",
-      "views": 4549,
+      "views": 4576,
       "duration": "22:54"
     },
     {
@@ -33,7 +42,7 @@
       "desc": "התראיינתי לערוץ הכלכלה 10 עם דני רופ על סדנת Human + AI = Better Decisions. בראיון דיברנו על האתגר האמיתי של ארגונים בעידן הבינה ...",
       "thumb": "https://i.ytimg.com/vi/2zYiBEFSfI8/hqdefault.jpg",
       "date": "2026-01-26T20:54:05Z",
-      "views": 154893,
+      "views": 156565,
       "duration": "7:31"
     },
     {
@@ -51,7 +60,7 @@
       "desc": "כיצד מחקר באקדמיה יכול להפוך לחברה פורצת דרך בשוק העסקי. ראיון בערוץ 10 - כלכלה עם דני רופ בנושא, הכולל דוגמאות, שיטות ורמזים כיצד להניע ...",
       "thumb": "https://i.ytimg.com/vi/EgRJtUZ2m4I/hqdefault.jpg",
       "date": "2025-08-19T02:41:48Z",
-      "views": 59,
+      "views": 60,
       "duration": "5:08"
     },
     {
@@ -87,7 +96,7 @@
       "desc": "האם ה- AI ישנה את הביקוש לחמישית מהמקצועות במשק - כך תשארו בשוק העבודה. ראיון שנערך עימי בתוכניתו של אלעד זוהר. רשת 13.",
       "thumb": "https://i.ytimg.com/vi/sMaX5vE27J8/hqdefault.jpg",
       "date": "2025-04-09T10:43:12Z",
-      "views": 105658,
+      "views": 105899,
       "duration": "1:52"
     },
     {
@@ -100,12 +109,21 @@
       "duration": "2:29"
     },
     {
+      "id": "i5jb3FjAHzg",
+      "title": "חד וחלק! - צניחה דרמטית בגיוס העובדים בהיי-טק בפתח 2025",
+      "desc": "תחזית גיוס העובדים ל-2025: אתגר או הזדמנות? הדו\"ח הרבעוני של Manpower צופה עלייה צנועה של 1% בלבד בגיוסים. איך מתמודדים עם ...",
+      "thumb": "https://i.ytimg.com/vi/i5jb3FjAHzg/hqdefault.jpg",
+      "date": "2025-04-02T06:37:33Z",
+      "views": 395204,
+      "duration": "2:21"
+    },
+    {
       "id": "5DxwcrCr65Q",
       "title": "חד וחלק! - משנה את השוק - המקצועות החדשים שיוצר ה- AI",
       "desc": "ראיון ברשת 13 עם אלעד זוהר בנושא אתיקה בקניין הרוחני והבנה מה הולך מאחורי \"הקלעים\".",
       "thumb": "https://i.ytimg.com/vi/5DxwcrCr65Q/hqdefault.jpg",
       "date": "2025-03-26T11:30:20Z",
-      "views": 274993,
+      "views": 277524,
       "duration": "2:25"
     },
     {
@@ -118,13 +136,40 @@
       "duration": "1:45"
     },
     {
+      "id": "HFbpdmee27w",
+      "title": "חד וחלק! – בתקופות של אי יציבות כלכלית: כך חברות היי-טק מגייסות משקיעים וכספים.",
+      "desc": "ראיון שנערך עימי אמש ברשת 13 בתוכנית של אלעד זוהר. תמיד תזכרו את משולש האיזון – גם עכשיו הוא מוכיח כמה הוא שווה צלעות.",
+      "thumb": "https://i.ytimg.com/vi/HFbpdmee27w/hqdefault.jpg",
+      "date": "2025-03-12T15:45:56Z",
+      "views": 667618,
+      "duration": "1:56"
+    },
+    {
       "id": "0C5WU8cvxrQ",
       "title": "חד וחלק! הבינה המלאכותית: כך משפיעה ההתפתחות של הטכנולוגיה על שוק העבודה בהיי-טק",
       "desc": "קטע מתוך ראיון שנערך עימי ברשת 13 בתוכנית החדשה - המומחים.",
       "thumb": "https://i.ytimg.com/vi/0C5WU8cvxrQ/hqdefault.jpg",
       "date": "2025-03-05T21:07:03Z",
-      "views": 89083,
+      "views": 89084,
       "duration": "1:41"
+    },
+    {
+      "id": "kd4BewNaLPY",
+      "title": "“The only thing you need is passion”  Ronen Chen, CTO of Albe io",
+      "desc": "",
+      "thumb": "https://i.ytimg.com/vi/kd4BewNaLPY/hqdefault.jpg",
+      "date": "2025-02-01T19:28:55Z",
+      "views": 28,
+      "duration": "21:51"
+    },
+    {
+      "id": "8J0lORYijJQ",
+      "title": "חדשנות, צמיחה ותעשייה",
+      "desc": "הרצאה פתוחה על כלל המסלולים של הרשות לחדשנות לשנת 2025. מסלול הזנק, מופ\"ת, תעשיית הייצור והמדדים להצלחה.",
+      "thumb": "https://i.ytimg.com/vi/8J0lORYijJQ/hqdefault.jpg",
+      "date": "2025-01-20T20:00:32Z",
+      "views": 221987,
+      "duration": "30:55"
     },
     {
       "id": "3zsiAEodaVY",
@@ -224,6 +269,15 @@
       "date": "2024-11-23T18:48:05Z",
       "views": 19,
       "duration": "26:44"
+    },
+    {
+      "id": "uB6zb_vbgJI",
+      "title": "Protecting your value - How to protect your company IP",
+      "desc": "Send us Fan Mail (https://www.buzzsprout.com/1931451/fan_mail/new) It is not always easy to know what the right way is to ...",
+      "thumb": "https://i.ytimg.com/vi/uB6zb_vbgJI/hqdefault.jpg",
+      "date": "2024-11-23T18:47:35Z",
+      "views": 3,
+      "duration": "36:35"
     },
     {
       "id": "XHwwhYospME",
@@ -339,7 +393,7 @@
       "desc": "דיון מעמיק על מצבה הנוכחי של חברת אינטל ועל ההזדמנויות הייחודיות להשקעה בתחום הבריאות בתקופה זו.",
       "thumb": "https://i.ytimg.com/vi/Jth2DQWfHPo/hqdefault.jpg",
       "date": "2024-10-02T21:29:39Z",
-      "views": 15267,
+      "views": 15307,
       "duration": "5:47"
     },
     {
@@ -402,7 +456,7 @@
       "desc": "יישומי בינה מלאכותית במקומות העבודה: חקר השפעתה של טכנולוגיית ה-AI על אוטומציה, יעילות ושיפור ביצועים בסביבות עבודה מודרניות.",
       "thumb": "https://i.ytimg.com/vi/cM4d0fzeLrs/hqdefault.jpg",
       "date": "2024-02-21T22:01:21Z",
-      "views": 5544,
+      "views": 5547,
       "duration": "50:06"
     },
     {
@@ -460,12 +514,21 @@
       "duration": "1:04:12"
     },
     {
+      "id": "mb8PZNVvloQ",
+      "title": "ראיון עם רונן חן על האתיקה של הבינה המלאכותית",
+      "desc": "ראיון פתוח לכבוד כנס הפרויקטים הגדול בישראל, העוסק בבינה מלאכותית ואתיקה. בשיחה נבחן כיצד השילוב בין טכנולוגיה ואתיקה יוצר אתגרים חדשים, ...",
+      "thumb": "https://i.ytimg.com/vi/mb8PZNVvloQ/hqdefault.jpg",
+      "date": "2023-05-30T19:26:21Z",
+      "views": 833,
+      "duration": "12:03"
+    },
+    {
       "id": "ZhAV0lhfqjE",
       "title": "How Does A Pitch Deck Work",
       "desc": "הסבר מעמיק על אופן הפעולה של Pitch Deck – מצגת המשמשת להצגת רעיונות עסקיים למשקיעים פוטנציאליים. נעמוד על המרכיבים המרכזיים שלה, ...",
       "thumb": "https://i.ytimg.com/vi/ZhAV0lhfqjE/hqdefault.jpg",
       "date": "2023-04-29T17:05:48Z",
-      "views": 156971,
+      "views": 158077,
       "duration": "39:29"
     },
     {
@@ -510,7 +573,7 @@
       "desc": "פרק 4 – מה מייחד את החברה שלי ולמה השילוב של טכנולוגיה, צוות ושוק מהווה יתרון תחרותי משמעותי. לפרטים נוספים: inno-tech.co.il.",
       "thumb": "https://i.ytimg.com/vi/pPOnvvpn6zI/hqdefault.jpg",
       "date": "2022-10-20T16:02:45Z",
-      "views": 422007,
+      "views": 424430,
       "duration": "3:22"
     },
     {
@@ -519,7 +582,7 @@
       "desc": "פרק 3 – עוסק בצוות החברה, החדשנות הטכנולוגית, תוכנית השיווק וההיבטים הפיננסיים. לפרטים נוספים: ראשי – הולכים אל הלא נודע (inno-tech.co.il) ...",
       "thumb": "https://i.ytimg.com/vi/nHlHLLIsseA/hqdefault.jpg",
       "date": "2022-09-14T14:37:27Z",
-      "views": 178042,
+      "views": 179229,
       "duration": "4:26"
     },
     {
@@ -555,7 +618,7 @@
       "desc": "כיצד מתוך מידע אנו מסוגלים לכמת ידע, ודוגמאות לשיטות להשגת מידע באמצעות תורת המשחקים. לפרטים נוספים: inno-tech.co.il.",
       "thumb": "https://i.ytimg.com/vi/2e29kxHoKlE/hqdefault.jpg",
       "date": "2022-08-11T22:23:41Z",
-      "views": 15708,
+      "views": 15733,
       "duration": "1:24:16"
     },
     {
@@ -578,8 +641,8 @@
     }
   ],
   "channelStats": {
-    "viewCount": 2961116,
-    "subscriberCount": 3500,
-    "videoCount": 69
+    "viewCount": 2983508,
+    "subscriberCount": 3510,
+    "videoCount": 71
   }
 }
